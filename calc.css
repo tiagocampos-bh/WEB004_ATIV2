@@ -1,0 +1,17 @@
+body {
+	font-family: Helvetica;
+	font-size: 20px;
+}	
+
+legend {
+	font-weight: bold;
+}
+
+#medidas {
+	margin: 15px 15px 15px 15px;
+	padding: 1px 1px 1px 1px;
+}
+
+#variaveis {
+	padding: 5px 5px 5px 5px;
+}

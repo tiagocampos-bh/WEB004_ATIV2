@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Atividade 2
+		</title>
+		<meta charset="utf-8">
+		<script src="script_ativ2.js"/> </script>
+		<link rel="stylesheet" href="calc.css" />  
+	</head>
+	<body>
+		<form action="" method="" target="" name="calc_ativ2">
+			
+			<fieldset>
+				<legend>MultiCalculadora
+				</legend>
+			
+			<div id="medidas">
+				<label for="medida"></label>
+				<input id="IMC" name="medida" type="radio" checked="checked" onclick="executeimc();" />IMC
+				<input id="Ret" name="medida" type="radio" onclick="executeret();" />Retângulo
+				<input id="Cir" name="medida" type="radio" onclick="executecirc();"/>Círculo<br/><br/>
+			</div>
+			
+			<div id="variaveis">
+				<label for="peso">Peso:</label></tr>
+				<input id="peso" name="peso" type="number" size="10" /><br/><br/>
+			</div>
+			
+			<div>
+				<label for="altura">Altura:</label>
+				<input id="altura" name="altura" type="number" size="10" /><br/><br/>
+			</div>
+			
+			<div>
+				<button class=".btn" type="button" onclick="calcularimc();">Calcular</button>
+			</div>
+			
+		</form>
+	</body>
+</html>
